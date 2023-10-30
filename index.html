@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="images/bt-logo.svg">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>Bootstrap · The most popular HTML, CSS and JS library in the world</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row text-center justify-content-center">
+				<div class="col-12 d-none d-sm-none d-md-block">
+					<ul class="nav justify-content-center align-items-center">
+							<li class="nav-item">
+								<i class="fa-brands fa-bootstrap"></i>
+							</li>
+							<li class="nav-item">
+									<a class="header-link active" href="#" aria-current="page">Home</a>
+							</li>
+							<li class="nav-item">
+									<a class="header-link" href="#">Docs</a>
+							</li>
+							<li class="nav-item">
+									<a class="header-link" href="#">Examples</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="header-link" href="#">Icons</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="header-link" href="#">Themes</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="header-link" href="#">Blocks</a>
+							</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-12 d-block d-sm-block d-md-none">
+					
+					<nav class="navbar navbar-dark">
+						<div class="container">
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon">
+									<i id="line-mark" class="fa-solid fa-grip-lines"></i>
+									<i id="x-mark" class="fa-solid fa-x"></i>
+								</span>
+							</button>
+						</div>
+					</nav>
+
+					<div class="collapse" id="navbarToggleExternalContent">
+						<div class= p-4">
+							<ul class="nav d-block text-center">
+								<li class="nav-item">
+									<i class="fa-brands fa-bootstrap"></i>
+								</li>
+								<li class="nav-item">
+										<a class="header-link active" href="#" aria-current="page">Home</a>
+								</li>
+								<li class="nav-item">
+										<a class="header-link" href="#">Docs</a>
+								</li>
+								<li class="nav-item">
+										<a class="header-link" href="#">Examples</a>
+								</li>
+	
+								<li class="nav-item">
+									<a class="header-link" href="#">Icons</a>
+								</li>
+	
+								<li class="nav-item">
+									<a class="header-link" href="#">Themes</a>
+								</li>
+	
+								<li class="nav-item">
+									<a class="header-link" href="#">Blocks</a>
+								</li>
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header> <!-- HEADER -->
+
+	<section class="intro">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-12">
+					<p>
+						<strong class="d-sm-inline-block p-2 me-2 mb-2 mb-lg-0 rounded-3 masthead-notice">New in v5.3</strong>
+						<span class="text-body-secondary">Color mode support, expanded color palette, and more!</span>
+					</p>
+				</div>
+			</div>
+
+			<div class="row text-center mb-3">
+				<div class="col-12">
+					<i class="intro-logo fa-brands fa-bootstrap img-fluid"></i>
+				</div>
+			</div>
+
+			<div class="row text-center justify-content-center mb-3">
+				<div class="col-6">
+					<h1>Build fast, responsive sites with Bootstrap</h1>
+				</div>
+			</div>
+
+			<div class="row text-center justify-content-center mb-3">
+				<div class="col-6">
+					<p>Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.</p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center text-center">
+				<div class="col-md-4 col-sm-6 col-8">
+					<form>
+						<div class="copy-input">
+							<input class="form-control me-2 copy-input" type="search" value="npm i bootstrap@5.3.2" aria-label="Search" readonly>
+							<label class="copy-label">
+								<i class="fa-solid fa-copy"></i>
+							</label>
+							
+							<div class="popper">
+								Copy
+							</div>
+
+							<div class="dollar-sign"></div>
+						</div>
+					</form>
+				</div>
+
+				<div class="btn button btn-outline-success col-md-2 col-sm-3 col-3" type="submit">
+					<i class="fa-solid fa-book-open"></i><span>Search</span>
+				</div>
+			</div>
+
+			<div class="row text-center justify-content-center">
+				<div class="col-12 mt-3 intro-links">
+					<p>Currently <span>v5.3.2</span> · <a href="">Download</a> · <a href="">All releases</a></p>
+				</div>
+			</div>
+		</div>
+	</section> <!-- INTRO -->
+
+	<section class="get-started">
+		<div class="container">
+			<div class="row text-md-center justify-content-center">
+				<div class="col-lg-7 mx-auto mb-md-2 text-md-center mb-3">
+					<i class="fa-solid fa-code code-icon mb-3"></i>
+
+					<h2 class="display-5 mb-3 fw-bold lh-sm">Get started any way you want</h2>
+					<p class="lead fw-normal">Jump right into building with Bootstrap—use the CDN, install it via package manager, or download the source code.</p>
+					<p class="read-docs"><a href=""><span>Read installation docs</span><i class="fa-solid fa-arrow-right ms-2"></i></a></p>
+				</div>
+
+			</div>
+		</div>
+		
+	</section> <!-- GET STARTED -->
+
+	<section class="code">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 py-lg-4 pe-lg-5 mb-lg-0 mb-5">
+					<div class="block1">
+						<div class="block1-img">
+							<i class="fa-solid fa-box fs-3"></i>
+						</div>
+						<h3>Install via package manager</h3>
+						<p>Install Bootstrap’s source Sass and JavaScript files via npm, RubyGems, Composer, or Meteor. Package managed installs don’t include documentation or our full build scripts. You can also <a href="">use any demo from our Examples repo</a> to quickly jumpstart Bootstrap projects.</p>
+
+						<form class="mb-3">
+							<div class="copy-input">
+								<input class="form-control me-2 copy-input" type="search" value="npm i bootstrap@5.4.2" aria-label="Search" readonly>
+								<label class="copy-label">
+									<i class="fa-solid fa-copy"></i>
+								</label>
+								<div class="popper">
+									Copy
+								</div>
+
+								<div class="dollar-sign"></div>
+							</div>
+						</form>
+
+						<form class="mb-3">
+							<div class="copy-input">
+								<input class="form-control me-2 copy-input" type="search" value="npm i bootstrap@5.5.2" aria-label="Search" readonly>
+								<label class="copy-label">
+									<i class="fa-solid fa-copy"></i>
+								</label>
+								
+								<div class="popper">
+									Copy
+								</div>
+
+								<div class="dollar-sign"></div>
+							</div>
+						</form>
+
+						<p><a href="">Read our installation docs</a> for more info and additional package managers.</p>
+					</div>
+					<div class="separator"></div>
+				</div>
+
+				<div class="col-lg-6 py-lg-4 ps-lg-5 border-lg-start">
+					<div class="block2">
+						<div class="block2-img">
+							<i class="fa-solid fa-globe fs-3"></i>
+						</div>
+						<h3>Install via package manager</h3>
+						<p>Install Bootstrap’s source Sass and JavaScript files via npm, RubyGems, Composer, or Meteor. Package managed installs don’t include documentation or our full build scripts. You can also <a href="">use any demo from our Examples repo</a> to quickly jumpstart Bootstrap projects.</p>
+							
+						<div class="first-link">
+							<div class="highlight mb-3"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span> <span class="na">integrity</span><span class="o">=</span><span class="s">"sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">"anonymous"</span><span class="p">&gt;</span></span></span></code></pre></div>
+						</div>
+
+						<div class="second-link">
+							<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span> <span class="na">integrity</span><span class="o">=</span><span class="s">"sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">"anonymous"</span><span class="p">&gt;</span></span></span></code></pre></div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center align-content-center text-center">
+				<div class="col-12 mt-5">
+					<h3>Read our getting started guides</h3>
+				</div>
+				<div class="col-12 mb-3">
+					<p>Get a jump on including Bootstrap's source files in a new project with our official guides.</p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center text-center">
+				<div class="col-3 d-flex justify-content-center">
+					<a class="icon">
+						<img src="images/webpack.svg" alt="">
+						<p>WebPack</p>
+					</a>
+
+					<a class="icon">
+						<img src="images/parcel.png" alt="">
+						<p>Parcel</p>
+					</a>
+
+					<a class="icon">
+						<img src="images/vite.svg" alt="">
+						<p>Vite</p>
+					</a>
+				</div>
+			</div>
+	</section> <!-- CODE -->
+
+	<section class="components">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 components-title align-items-center">
+					<i class="fa-solid fa-bars fs-1 me-2 mb-3"></i>
+					<i class="fa-solid fa-plus me-2"></i>
+					<i class="fa-solid fa-code-branch fs-1 mb-3"></i>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-8 mb-3">
+					<h1>Components, meet the Utility API</h1>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-8">
+					<p class="fw-normal lead mb-5">New in Bootstrap 5, our utilities are now generated by our <a href="">Utility API.</a> We built it as a feature-packed Sass map that can be quickly and easily customized. It's never been easier to add, remove, or modify any utility classes. Make utilities responsive, add pseudo-class variants, and give them custom names.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6 col-12 mb-md-0 mb-3">
+					<h3>Quickly customize components</h3>
+					<p>Apply any of our included utility classes to our components to customize their appearance, like the navigation example below. There are hundreds of classes available—from <a href="">positioning</a> and <a href="">sizing</a> to <a href="">colors</a> and <a href="">effects</a>. Mix them with CSS variable overrides for even more control.</p>
+					
+					<div class="block-nav rounded-3 mb-4 p-4 border">
+
+						<ul class="nav nav-pills mb-4" id="pillNav" role="tablist">
+							<li class="nav-item" role="presentation">
+								<button class="nav-link active" id="home-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="profile-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" tabindex="-1">Profile</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="contact-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" tabindex="-1">Contact</button>
+							</li>
+						</ul>
+
+						<ul class="nav block2 nav-pills nav-fill gap-2 p-1 small bg-primary shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: rgba(255, 255, 255, .75); --bs-nav-link-hover-color: #fff; --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+							<li class="nav-item" role="presentation">
+								<button class="nav-link block2 rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" tabindex="-1">Home</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link block2 rounded-5 active" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Profile</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link block2 rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" tabindex="-1">Contact</button>
+							</li>
+						</ul>
+					</div>
+
+					<p class="read-docs"><a href=""><span>Explore customized components</span><i class="fa-solid fa-arrow-right ms-2"></i></a></p>
+				</div>
+
+				<div class="col-md-6 col-12">
+					<h3>Quickly customize components</h3>
+					<p>Use Bootstrap's utility API to modify any of our included utilities or create your own custom utilities for any project. Import Bootstrap first, then use Sass map functions to modify, add, or remove utilities.</p>
+
+					<p class="read-docs"><a href=""><span>Explore the utility API</span><i class="fa-solid fa-arrow-right ms-2"></i></a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer bd-footer py-4 py-md-5 mt-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-12">
+					<a class="footer-logo d-flex align-items-center text-center">
+						<i class="fa-brands fa-bootstrap"></i>
+						<h5 class="logo-text">Bootstrap</h5>
+					</a>
+
+					<p>Designed and built with all the love in the world by the <a href="">Bootstrap team</a> with the help of <a href="">our contributors.</a></p>
+
+					<p>Code licensed <a href="">MIT</a>, docs <a href="">CC BY 3.0.</a></p>
+					<p>Currently v5.3.2.</p>
+				</div>
+
+				<div class="col-md-2 col-6">
+					<h3>Links</h3>
+
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">Docs</a></li>
+						<li><a href="">Examples</a></li>
+						<li><a href="">Icons</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-2 col-6">
+					<h3>Guides</h3>
+
+					<ul>
+						<li><a href="">Getting started</a></li>
+						<li><a href="">Starter template</a></li>
+						<li><a href="">Webpack</a></li>
+						<li><a href="">Parcel</a></li>
+						<li><a href="">Vite</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-2 col-6">
+					<h3>Projects</h3>
+
+					<ul>
+						<li><a href="">Bootstrap 5</a></li>
+						<li><a href="">Bootstrap 4</a></li>
+						<li><a href="">Icons</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-2 col-6">
+					<h3>Community</h3>
+
+					<ul>
+						<li><a href="">Issues</a></li>
+						<li><a href="">Discussions</a></li>
+						<li><a href="">Corporate sponsors</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer> <!-- FOOTER -->
+
+	<script src="app.js"></script>
+	<script src="https://kit.fontawesome.com/f897a00291.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
